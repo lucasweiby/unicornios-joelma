@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+.document {
+    background-image: url(bg.jpg);
+}
+
+
+.historia p:first-letter {
+    text-transform: uppercase;
+    font-size: 50px;
+    /*line-height: 55px;*/
+    /*float: left;*/
+    color: #7cb342;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+blockquote {
+    font-family: 'Amatic SC', cursive;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*NAVBAR*/
+
+.top-bar {
+    height: 20px;
+    width: 100%;
+    background-color: #a00037;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c2185b;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s background-color;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover, li a:focus, li a:active {
+    background-color: #7cb342;
+}
+
+/*NAVBAR - END*/
+
+/*BANNER*/
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-image: url('banner.png');
+    background-color: #ff5c8d;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+    transition: 0.3s background-color;
+}
+
+.banner:hover {
+    background-color: #fff;
+}
+
+/*BANNER - END*/
+
+.main-title {
+    font-family: 'Amatic SC', cursive;
+    width: 100%;
+    height: auto;
+    background-color: #ff5c8d;
+    padding: 1.2em 0;
+}
+
+.main-title h1, .main-title h2 {
+    text-align: center;
+    margin: 0;
+    color: #fafafa;
+}
+
+.main-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*HISTORIA*/
+
+.historia img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.historia {
+    background-color: #fafafa;
+    padding: 5%;
+}
+
+.historia .title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: #7cb342;
+}
+
+/*HISTÓRIA - END*/
+
+/*CONTATO*/
+
+.contato {
+    background-color: #ff5c8d;
+    padding: 1.1em;
+}
+
+.contato form {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.contato input, .contato textarea {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+} 
+
+.contato input::placeholder, .contato textarea::placeholder, .contato input[type="submit"] {
+    font-family: 'Amatic SC', cursive;
+    color: #c2185b;
+}
+
+.contato input[type="submit"] {
+    background-color: #a00037;
+    color: #fafafa;
+    transition: 0.3s background-color;
+    margin: 0 auto;
+}
+
+.contato input[type="submit"]:hover {
+    background-color: #fafafa;
+    color: #a00037;
+    font-weight: 600;
+}
+
+.contato .title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: #fafafa;
+    text-align: center;
+}
+
+/* CONTATO END */
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    background-color: #a00037;
+    text-align: center;
+    padding: 1px;
+    color: #fafafa;
+    font-weight: lighter;
+}
